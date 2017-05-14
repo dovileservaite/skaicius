@@ -672,7 +672,6 @@ namespace Skaiciuotuvas {
 					rezultatas = pirmassk * antrassk;
 					apskaiciavimas->Text = System::Convert::ToString(rezultatas);
 					break;
-
 		}*/
 	}
 	private: System::Void skaiciuotuvas_Load(System::Object^  sender, System::EventArgs^  e) {
@@ -739,7 +738,6 @@ private: System::Void uždarytiToolStripMenuItem_Click(System::Object^  sender, 
 	Application::Exit();
 }
 private: System::Void fonąToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-
 }
 };
 }
