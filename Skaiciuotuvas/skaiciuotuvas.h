@@ -740,7 +740,6 @@ private: System::Void uždarytiToolStripMenuItem_Click(System::Object^  sender, 
 }
 private: System::Void fonąToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 
-
 }
 };
 }
