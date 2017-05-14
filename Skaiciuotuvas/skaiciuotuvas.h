@@ -516,6 +516,7 @@ namespace Skaiciuotuvas {
 
 #pragma endregion
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+
 		/*if (apskaiciavimas -> Text == "0")
 		{
 			apskaiciavimas->Text = "1";
