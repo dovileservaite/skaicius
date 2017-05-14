@@ -34,44 +34,44 @@ namespace Skaiciuotuvas {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^  btt1;
-	private: System::Windows::Forms::Button^  btt2;
-	private: System::Windows::Forms::Button^  btt3;
+
+
+
 	protected:
 
 	protected:
 
 
 
-	private: System::Windows::Forms::Button^  btt4;
-	private: System::Windows::Forms::Button^  btt5;
-	private: System::Windows::Forms::Button^  btt6;
-
-
-
-	private: System::Windows::Forms::Button^  btt7;
-	private: System::Windows::Forms::Button^  btt8;
-	private: System::Windows::Forms::Button^  btt9;
-	private: System::Windows::Forms::Button^  btt0;
-	private: System::Windows::Forms::Button^  bttC;
 
 
 
 
 
 
-	private: System::Windows::Forms::Button^  button12;
-	private: System::Windows::Forms::Button^  button13;
-	private: System::Windows::Forms::Button^  button14;
-	private: System::Windows::Forms::Button^  button15;
-	private: System::Windows::Forms::Button^  button16;
-	private: System::Windows::Forms::Button^  button17;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  zenklas;
 	private: System::Windows::Forms::TextBox^  display;
-	private: System::Windows::Forms::Button^  bttCE;
 
-	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::Button^  button3;
+
+
+
 	private: System::Windows::Forms::Label^  label1;
 	private: System::Windows::Forms::MenuStrip^  menuStrip1;
 	private: System::Windows::Forms::ToolStripMenuItem^  failasToolStripMenuItem;
@@ -79,6 +79,26 @@ namespace Skaiciuotuvas {
 	private: System::Windows::Forms::ToolStripMenuItem^  redaguotiToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  keistiToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^  fonąToolStripMenuItem;
+	private: System::Windows::Forms::Button^  btt1;
+	private: System::Windows::Forms::Button^  btt2;
+	private: System::Windows::Forms::Button^  btt3;
+	private: System::Windows::Forms::Button^  btt4;
+	private: System::Windows::Forms::Button^  btt5;
+	private: System::Windows::Forms::Button^  btt6;
+	private: System::Windows::Forms::Button^  btt7;
+	private: System::Windows::Forms::Button^  btt8;
+	private: System::Windows::Forms::Button^  btt9;
+	private: System::Windows::Forms::Button^  btt0;
+	private: System::Windows::Forms::Button^  bttC;
+	private: System::Windows::Forms::Button^  button12;
+	private: System::Windows::Forms::Button^  button13;
+	private: System::Windows::Forms::Button^  button14;
+	private: System::Windows::Forms::Button^  button15;
+	private: System::Windows::Forms::Button^  button16;
+	private: System::Windows::Forms::Button^  button17;
+	private: System::Windows::Forms::Button^  bttCE;
+	private: System::Windows::Forms::Button^  button2;
+	private: System::Windows::Forms::Button^  button3;
 
 
 
@@ -439,13 +459,13 @@ namespace Skaiciuotuvas {
 			// 
 			this->keistiToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->fonąToolStripMenuItem });
 			this->keistiToolStripMenuItem->Name = L"keistiToolStripMenuItem";
-			this->keistiToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->keistiToolStripMenuItem->Size = System::Drawing::Size(102, 22);
 			this->keistiToolStripMenuItem->Text = L"K&eisti";
 			// 
 			// fonąToolStripMenuItem
 			// 
 			this->fonąToolStripMenuItem->Name = L"fonąToolStripMenuItem";
-			this->fonąToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->fonąToolStripMenuItem->Size = System::Drawing::Size(137, 22);
 			this->fonąToolStripMenuItem->Text = L"Fono spalvą";
 			this->fonąToolStripMenuItem->Click += gcnew System::EventHandler(this, &skaiciuotuvas::fonąToolStripMenuItem_Click);
 			// 
@@ -598,6 +618,8 @@ namespace Skaiciuotuvas {
 	private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
 		//apskaiciavimas->Text = "";
 		//apskaiciavimas->Text = "0";
+
+		//mygtukas "c"
 
 		display->Text = "0";
 		zenklas->Text = "";
