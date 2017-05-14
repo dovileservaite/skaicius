@@ -618,7 +618,6 @@ namespace Skaiciuotuvas {
 	private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
 		//apskaiciavimas->Text = "";
 		//apskaiciavimas->Text = "0";
-
 		//mygtukas "c"
 
 		display->Text = "0";
